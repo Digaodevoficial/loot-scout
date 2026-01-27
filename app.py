@@ -147,9 +147,14 @@ def main():
         
         st.divider()
         busca = st.text_input("🔍 Buscar jogo:", placeholder="Nome do jogo...")
-        f_cat = st.multiselect("🏷️ Tipo de Brinde:", sorted(list(set([g['type'] for g in dados]))))
+        
+        # AJUSTE: Placeholder traduzido para o tipo de brinde
+        f_cat = st.multiselect("🏷️ Tipo de Brinde:", sorted(list(set([g['type'] for g in dados]))), placeholder="Selecione os tipos")
+        
         min_v = st.slider("💵 Valor original min. ($):", 0, 100, 0)
-        f_plat = st.multiselect("🖥️ Plataformas:", sorted(list(set([traduzir_plataforma(g['platforms']) for g in dados]))))
+        
+        # AJUSTE: Placeholder traduzido para as plataformas
+        f_plat = st.multiselect("🖥️ Plataformas:", sorted(list(set([traduzir_plataforma(g['platforms']) for g in dados]))), placeholder="Selecione as plataformas")
         
         st.divider()
         # Melhoria de Performance: Tradução desligada por padrão para carregar rápido
