@@ -2,6 +2,9 @@
 
 **LootScout** é um radar avançado desenvolvido em Python para batedores de recompensas digitais. Ele monitora e agrega jogos gratuitos e brindes de plataformas como Steam, Epic Games Store e GOG em tempo real.
 
+<img width="1916" height="942" alt="image" src="https://github.com/user-attachments/assets/58380552-83df-4870-a5ee-33e102af909d" />
+
+
 ## 💡 O Conceito
 O nome **LootScout** une o termo gamer *Loot* (saque/tesouro) com *Scout* (batedor/explorador). O app funciona como sua unidade de inteligência avançada, removendo a "névoa de guerra" sobre as promoções e entregando o tesouro diretamente na sua mão.
 
